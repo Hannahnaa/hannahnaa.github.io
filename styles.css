@@ -1,0 +1,36 @@
+/* 1 */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* 2 */
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 3 */
+nav {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+/* 4 */
+nav a {
+    color: rgb(150, 244, 122);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* 5 */
+main {
+    padding: 20px;
+}
+
+/* 6 (extra – makes it stronger) */
+h1 {
+    color: purple;
+}
+
