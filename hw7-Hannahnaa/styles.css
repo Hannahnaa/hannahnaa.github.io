@@ -1,0 +1,38 @@
+/* Deep-space background with layered star fields */
+body {
+    background-color: #000;
+    background-image:
+        /* Small faint stars */
+        radial-gradient(1px 1px at  20px  30px, #fff, transparent),
+        radial-gradient(1px 1px at  80px  70px, #fff, transparent),
+        radial-gradient(1px 1px at 150px  20px, #fff, transparent),
+        radial-gradient(1px 1px at 260px 120px, #fff, transparent),
+        radial-gradient(1px 1px at 370px  50px, #fff, transparent),
+        radial-gradient(1px 1px at 450px 160px, #fff, transparent),
+        radial-gradient(1px 1px at  40px 200px, #fff, transparent),
+        radial-gradient(1px 1px at 120px 280px, #fff, transparent),
+        radial-gradient(1px 1px at 300px 260px, #fff, transparent),
+        radial-gradient(1px 1px at 500px 300px, #fff, transparent),
+        radial-gradient(1px 1px at 180px 350px, #fff, transparent),
+        radial-gradient(1px 1px at 420px 380px, #fff, transparent),
+        radial-gradient(1px 1px at  60px 420px, #fff, transparent),
+        radial-gradient(1px 1px at 340px 440px, #fff, transparent),
+        radial-gradient(1px 1px at 480px 480px, #fff, transparent),
+        radial-gradient(1px 1px at 220px 500px, #fff, transparent),
+
+        /* Medium brighter stars */
+        radial-gradient(1.5px 1.5px at 100px  50px, rgba(255,255,255,0.9), transparent),
+        radial-gradient(1.5px 1.5px at 310px 140px, rgba(255,255,255,0.9), transparent),
+        radial-gradient(1.5px 1.5px at  50px 300px, rgba(255,255,255,0.9), transparent),
+        radial-gradient(1.5px 1.5px at 430px 250px, rgba(255,255,255,0.9), transparent),
+        radial-gradient(1.5px 1.5px at 200px 420px, rgba(255,255,255,0.9), transparent),
+        radial-gradient(1.5px 1.5px at 470px  90px, rgba(255,255,255,0.9), transparent),
+
+        /* A few larger accent stars */
+        radial-gradient(2px 2px at 250px  80px, rgba(200,220,255,1), transparent),
+        radial-gradient(2px 2px at  90px 180px, rgba(255,240,200,1), transparent),
+        radial-gradient(2px 2px at 400px 350px, rgba(200,220,255,1), transparent);
+
+    background-size: 520px 520px;
+    background-repeat: repeat;
+}
