@@ -71,7 +71,7 @@ function generate() {
  */
 function generateLib() {
     const resultDiv = document.getElementById("madlib-result");
-    resultDiv.innerHTML = "";
+    resultDiv.replaceChildren() = "";
 
     resultDiv.replaceChildren();
 
